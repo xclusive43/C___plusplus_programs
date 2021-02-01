@@ -1,0 +1,26 @@
+#include<stdio.h>
+int fact(int a);
+ main()
+{
+   
+
+int n;
+ printf("enter the decimal number:\n");
+ scanf("%d",&n);
+ fact(n);
+
+}
+
+int fact( n)
+  { 
+  int rem,b=0, no=1;
+   while(n>0)
+   {
+    rem=n%2;
+    n=n/2;
+    b=b+(rem*no);
+    no=no*10;
+printf("binary is %d\n",b);
+}
+printf("binary is %d\n",b);
+}

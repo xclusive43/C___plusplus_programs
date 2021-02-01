@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+main()
+{
+int fac=0,i,f1=0,f2=1;
+get('&i');
+}
